@@ -1,0 +1,21 @@
+.header__lang-link {
+  margin-right: 16px;
+  font: 400 24px/28px 'Inter',sans-serif;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity .2s linear;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
+}
+
+.header__lang-link:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font: 400 18px/20px 'Inter',sans-serif;
+  }
+}

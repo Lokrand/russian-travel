@@ -1,0 +1,6 @@
+.page {
+  margin: 0 auto;
+  padding: 0 calc((100% - 1280px)/2);
+  color: #fff;
+  background-color: #2a2c2f;
+}

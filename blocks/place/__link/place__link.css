@@ -1,0 +1,11 @@
+.place__link {
+  display: block;
+  margin-top: 12px;
+  font: 400 18px/22px 'Inter',sans-serif;
+  color: #fff;
+  transition: opacity .2s linear 0s;
+}
+
+.place__link:hover {
+  opacity: .8;
+}

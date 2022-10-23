@@ -1,0 +1,7 @@
+.place__url {
+  display: block;
+  font: 400 12px/12px 'Inter',sans-serif;
+  letter-spacing: 2px;
+  color: #aaa;
+  text-transform: uppercase;
+}

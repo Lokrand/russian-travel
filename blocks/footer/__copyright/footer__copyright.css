@@ -1,0 +1,12 @@
+.footer__copyright {
+  text-align: end;
+  font: 400 14px/16px 'Inter',sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin-top: 48px;
+    text-align: start;
+    font: 400 14px/14px 'Inter',sans-serif;
+  }
+}

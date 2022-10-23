@@ -1,0 +1,22 @@
+.place__paragraph {
+  font: 400 18px/29.34px 'Inter',sans-serif;
+  margin-bottom: 26px;
+}
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    font: 400 16px/26.08px 'Inter',sans-serif;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    margin: 0 0 25px;
+    padding: 0 16px;
+  }
+}

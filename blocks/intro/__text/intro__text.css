@@ -1,0 +1,10 @@
+.intro__text {
+  margin-bottom: 33px;
+  font: 400 16px/26px 'Inter',sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    margin-bottom: 34px;
+  }
+}
